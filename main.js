@@ -1,6 +1,7 @@
 // console.log("My three object: ", THREE);
 
-import * as THREE from 'three';
+import * as THREE from './node_modules/three/build/three.js';
+// import * as THREE from 'three';
 
 import Stats from 'three/addons/libs/stats.module.js';
 
