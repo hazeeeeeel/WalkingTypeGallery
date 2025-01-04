@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Walking Type Gallery</title>
+    <base href=".">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+
+    <div id="blocker">
+			<div class="panel" id="instructions">
+        <div class="panel-header">
+          <div class="panel-header-title">Walking Type Journal</div>
+          <div class="panel-header-version">0.1.1</div>
+        </div>
+        <div id="instruction-content">
+          <div id="introduction">
+            <img src="asset/avatar.png" alt="walking avatar">
+            <div id="instruction-text">
+              <p class="title">
+                Walking Type Journal
+              </p>
+              <p class="subtitle underline">
+                ONLINE GALLERY
+              </p>
+              <p class="menlo">
+                I always prefer walking or biking to taking rides in vehicles. When walking, I would look for the eccentric spots and stains in the city. This journal keeps track of the few walks I took in the past year and the type designs I made based on them.
+              </p>
+            </div>
+          </div>
+          <div id="instruction-image">
+            <img src="asset/cover.png" alt="starting map">
+          </div>
+          <div id="enter-button">
+            <div id="inner-border">
+              <p class="menlo underline">ENTER</p> 
+            </div>
+          </div>
+        </div>
+			</div>
+		</div>
+
+    <div id="control-container">
+      <div id="control-drag">
+        <img src="asset/mouse.png" alt="mouse drag icon">
+        <div class="text-box">
+          <p>DRAG MOUSE<br>
+            TO LOOK AROUND</p>
+        </div>
+      </div>
+      <div id="control-direction">
+        <img src="asset/arrow-keys.png" alt="arrow keys icon">
+        <div class="text-box">
+          <p>PRESS WASD OR ARROW<br>
+            KEYS TO MOVE AROUND</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="info-button">
+      <p>i</p>
+    </div>
+
+    <div id="font-info-container">
+      <div class="panel" id="font-info-panel">
+        <div class="panel-header">
+          <div class="panel-header-title">Walking Type Journal</div>
+          <div class="panel-header-version" id="panel-close">close</div>
+        </div>
+        <img src="asset/info/1-1.png" alt="details of the type">
+      </div>
+    </div>
+
+    <div id="container"></div>
+
+    <!-- <script src="./node_modules/three/build/three.js"></script> -->
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
