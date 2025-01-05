@@ -4,20 +4,19 @@
 // import * as THREE from 'three';
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.module.js';
 
-import Stats from 'three/addons/libs/stats.module.js';
+// import Stats from 'three/addons/libs/stats.module.js';
 
-import WebGL from 'three/addons/capabilities/WebGL.js';
+// import WebGL from 'three/addons/capabilities/WebGL.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 // import { FirstPersonControls } from 'three/addons/controls/FirstPersonControls.js';
 // import { PointerLockControls } from 'three/addons/controls/PointerLockControls.js';
 import { ControlMode, PointerBehaviour, SpatialControls } from "spatial-controls";
-import { NoiseEffect, OutlineEffect, EdgeDetectionMode } from "postprocessing";
+// import { NoiseEffect, OutlineEffect, EdgeDetectionMode } from "postprocessing";
 
-let container, blocker, instructions, stats;
+let container, blocker, instructions;
 let camera, controls, scene, renderer, raycaster;
 let position, quaternion;
 let ambientLight, sunLight;
-let cube;
 let enter_button, infoPanelOn, fontPanelOn, info_button, control_container, font_info_container, font_info_close;
 const painting_counts = [10, 7, 2, 4, 2, 3, 3, 1, 1, 5, 7, 2, 3, 2, 4];
 
