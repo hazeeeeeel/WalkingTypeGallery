@@ -7,7 +7,8 @@ import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.m
 // import Stats from 'three/addons/libs/stats.module.js';
 
 // import WebGL from 'three/addons/capabilities/WebGL.js';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+// import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { GLTFLoader } from './node_modules/three-stdlib/loaders/GLTFLoader.js';
 // import { FirstPersonControls } from 'three/addons/controls/FirstPersonControls.js';
 // import { PointerLockControls } from 'three/addons/controls/PointerLockControls.js';
 import { ControlMode, PointerBehaviour, SpatialControls } from "spatial-controls";
